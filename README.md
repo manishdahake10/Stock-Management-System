@@ -58,7 +58,7 @@ Run the application:<br>
   Once the application is running,. You can add, remove, buy, sell, and view stock details directly from the interface.<br>
 
 ## Project Structure
-Stock-Management-System/<br>
+Stock-Management-System<br>
 │<br>
 ├── StockManagement.java       # Main Java file with the GUI and logic for managing stocks<br>
 ├── README.md                  # This file<br>
