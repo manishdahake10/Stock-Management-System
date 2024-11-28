@@ -1,90 +1,88 @@
-# Stock Management System
-This is a Stock Management System built using Java and Java Swing. The application allows users to manage a collection of stocks, including features for adding, removing, buying, selling, and viewing stock details. The dashboard provides a simple graphical user interface (GUI) to manage stock quantities and prices.
+# Stock Management System Project
 
-You can view the live project or download the source code from the GitHub repository below:
-
-**GitHub Repository:** [(https://github.com/manishdahake10/Stock-Management-System)](https://github.com/manishdahake10/Stock-Management-System)
+## Overview
+This is a Stock Management System application built in Java that helps users manage stock inventory. It allows users to add, update, view, and delete stock items, track quantities, and generate reports for inventory management. The system aims to simplify inventory tracking and ensure efficient stock management.
 
 ## Features
-- **Stock Management:** Add, remove, buy, and sell stocks with details like stock name, quantity, and price.
-- **View Stock List:** View the current list of stocks in the system.
-- **Simple GUI:** Built using Java Swing, providing an intuitive and user-friendly interface for stock management.
-- **Inventory Tracking:** Keep track of stock quantities and prices, and perform necessary operations like buying and selling.
+- Users can add new stock items to the inventory.
+- Users can update stock details such as price, quantity, and item description.
+- Users can view all available stock items.
+- Users can delete stock items that are no longer needed.
+- The system provides a simple text-based interface for interacting with the inventory.
 
-## Tech Stack
-- **Java:** The primary language used to build the application.
-- **Java Swing:** Used for creating the graphical user interface (GUI).
-- **File Handling:** The application does not use a database but stores stock information in memory during runtime.
+## Class Name
+- `StockManagementSystem`: The main class to manage stock-related operations.
+
+## Technologies Used
+- **Java**: The programming language used for building the system.
+- **Text-based Interface**: The stock management system is implemented as a command-line interface.
+
+## Requirements
+- Java 8 or above.
+- No external libraries are required.
 
 ## Installation
-To run this project locally on your machine, follow these steps:
+1. Clone this repository to your local machine:
+    ```bash
+    git clone https://github.com/manishdahake10/StockManagementSystem.git
+    ```
 
+2. Navigate to the project directory:
+    ```bash
+    cd StockManagementSystem
+    ```
 
-### 1. Clone the repository:
+3. Compile the `StockManagementSystem.java` file:
+    ```bash
+    javac StockManagementSystem.java
+    ```
+
+4. Run the application:
+    ```bash
+    java StockManagementSystem
+    ```
+
+## Usage
+Once the program runs, you will be prompted to perform different actions:
+- Add a new stock item.
+- Update an existing stock item.
+- View the current stock inventory.
+- Delete an item from the inventory.
+- Exit the system.
+
+### Output
 ```bash
-git clone https://github.com/manishdahake10/Stock-Management-System.git
-```
-### 2. Navigate to the project directory
-Once the repository is cloned, navigate to the project directory:
-cd Stock-Management-System
+Welcome to the Stock Management System
+D:\Project\backEndTech\StockManagmentSystem>javac StockManagementSystem.java
 
-### 3. Set up the environment
-Ensure that you have Java installed on your machine. You can verify this by running:
-```bash
-java -version
-```
-### 4. Compile and run the project
-Using an IDE (Recommended):<br>
-  If you are using a Java IDE like IntelliJ IDEA, Eclipse, or NetBeans, you can follow these steps:<br>
-
-Open your IDE.<br>
-  Import the project by selecting File -> Open and navigating to the Stock-Management-System folder.<br>
-  Once the project is imported, open the StockManagement.java file.<br>
-  Click on the Run button (typically a green triangle) to run the application.<br>
-
-Using Command Line:<br>
-   If you prefer to compile and run the project from the command line, follow these steps:<br>
-
-  Open your terminal and navigate to the project folder where the StockManagement.java file is located.<br>
-
-Compile the Java file:<br>
-```bash
-  javac StockManagement.java
-```
-  This will compile the Java file into bytecode and generate the StockManagement.class file.<br>
-
-Run the application:<br>
-```bash
-  java StockManagement
-```
-### 5. Launch the application
-  Once the application is running,. You can add, remove, buy, sell, and view stock details directly from the interface.<br>
-
-## Project Structure
-Stock-Management-System<br>
-│<br>
-├── StockManagement.java       # Main Java file with the GUI and logic for managing stocks<br>
-├── README.md                  # This file<br>
-├── resources/                 # Folder for images, icons, and other resources<br>
-└── data/                      # Optional folder for data storage (CSV/JSON)<br>
-
-## Screenshots
-![Capture1](https://github.com/user-attachments/assets/4237ba4d-33ac-4d75-b7fd-f10c2a0b9e8b)<br><br>
-![Capture2](https://github.com/user-attachments/assets/4d66ca36-da10-4fd9-8ead-01b5b96f0c53)<br><br>
-![Capture3](https://github.com/user-attachments/assets/4f77a05d-9fe7-4ca4-b929-78a23c94eb68)<br><br>
-![Capture4](https://github.com/user-attachments/assets/d547469d-9efb-4c50-bd46-8b9f31d3a588)<br><br>
-
-## Contributing
-Feel free to fork this project and submit pull requests if you want to contribute improvements or new features. If you have any suggestions or find bugs, please open an issue.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-
-
-
-
-
-
-
+D:\Project\backEndTech\StockManagmentSystem>java StockManagementSystem
+1. Add stock
+2. Remove stock
+3. View stock
+4. Exit
+Enter your choice: 1
+Enter the stock name: DairyMilkSilk
+Enter the stock quantity: 50
+Enter the stock price: 80
+Stock added successfully.
+1. Add stock
+2. Remove stock
+3. View stock
+4. Exit
+Enter your choice: 3
+Current stocks:
+DairyMilkSilk, quantity: 50, price: $80.0
+1. Add stock
+2. Remove stock
+3. View stock
+4. Exit
+Enter your choice: 2
+Enter the stock name: DairyMilkSilk
+Enter the quantity to remove: 40
+Stock removed successfully.
+1. Add stock
+2. Remove stock
+3. View stock
+4. Exit
+Enter your choice: 4
+Exiting the program...
