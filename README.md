@@ -21,16 +21,18 @@ To run this project locally on your machine, follow these steps:
 
 
 ### 1. Clone the repository:
+```bash
 git clone https://github.com/manishdahake10/Stock-Management-System.git
-
+```
 ### 2. Navigate to the project directory
 Once the repository is cloned, navigate to the project directory:
 cd Stock-Management-System
 
 ### 3. Set up the environment
 Ensure that you have Java installed on your machine. You can verify this by running:
+```bash
 java -version
-
+```
 ### 4. Compile and run the project
 Using an IDE (Recommended):<br>
   If you are using a Java IDE like IntelliJ IDEA, Eclipse, or NetBeans, you can follow these steps:<br>
@@ -46,14 +48,15 @@ Using Command Line:<br>
   Open your terminal and navigate to the project folder where the StockManagement.java file is located.<br>
 
 Compile the Java file:<br>
-  javac StockManagement.java<br>
-
-javac StockManagement.java<br>
+```bash
+  javac StockManagement.java
+```
   This will compile the Java file into bytecode and generate the StockManagement.class file.<br>
 
 Run the application:<br>
-  java StockManagement<br>
-
+```bash
+  java StockManagement
+```
 ### 5. Launch the application
   Once the application is running,. You can add, remove, buy, sell, and view stock details directly from the interface.<br>
 
