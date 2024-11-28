@@ -86,3 +86,19 @@ Stock removed successfully.
 4. Exit
 Enter your choice: 4
 Exiting the program...
+ ```
+
+## Code Structure
+The project consists of the following structure:
+
+- `StockManagementSystem.java`:The main file that handles user input, stock management operations (add, update, delete, view), and displays the results..
+
+## Contribution
+Feel free to fork this repository and contribute by opening issues or submitting pull requests. If you would like to improve this system or fix bugs, feel free to contribute with your changes!
+## Author
+**Manish Dahake**  
+GitHub: [manishdahake10](https://github.com/manishdahake10)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
